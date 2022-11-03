@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"); */
+:root{--mess-height:500px ;--bg-color-titel:rgb(151, 174, 174);}
+#backg{
+  background-image: url('/assets/img/bg_school.jpg');
+  background-size: cover;
+}
+.type_titel{
+  font-size: 17px;
+  color: rgb(60, 60, 114);
+  font-weight: bold;
+}
+.content div{
+  padding:5px;
+}
+.welcome{
+  color:  rgb(48, 48, 216);
+  padding: 5px;
+  font-size: 20px;
+}
+.row_content{
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.row_titel{
+  background-color: var(--bg-color-titel); 
+  padding:10px
+}
+.row_inside{
+  padding: 10px;
+}
+.any_class{
+  margin: 5px;
+  padding: 25px;
+  height: var(--mess-height);
+  overflow-y: scroll;
+}
+.div_content{
+    background-color:#FAF9F6	;
+}
+
+@media screen and (max-width:1220px){
+  .body_student{
+    max-width: 800px;
+  }
+}
+/*grades student */
+.btn_search_grades{
+  width: 150px;
+  margin-top:40px;
+}
+.saturate { filter: saturate(3); }
